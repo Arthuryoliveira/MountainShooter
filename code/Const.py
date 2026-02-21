@@ -8,17 +8,22 @@ COLOR_WHITE = (255, 255, 255)
 EVENT_ENEMY = pygame.USEREVENT + 1
 ENTITY_SPEED = {
     'level1Bg0': 0,
-    'level1Bg1': 1,
-    'level1Bg2': 2,
-    'level1Bg3': 3,
-    'level1Bg4': 4,
-    'level1Bg5': 5,
-    'level1Bg6': 6,
-    'Player1': 3,
-    'Player2': 3,
-    'Enemy1' :2,
-    'Enemy2' :1,
+    'level1Bg1': 0,
+    'level1Bg2': 1,
+    'level1Bg3': 1,
+    'level1Bg4': 2,
+    'level1Bg5': 2,
+    'level1Bg6': 3,
+    'Player1': 2,
+    'Player1Shot': 1,
+    'Player2': 2,
+    'Player2Shot': 2,
+    'Enemy1': 1,
+    'Enemy1Shot': 5,
+    'Enemy2': 1,
+    'Enemy2Shot': 2,
 }
+
 
 
 ENTITY_HEALTH = {
@@ -35,13 +40,20 @@ ENTITY_HEALTH = {
     'level2Bg3': 999,
     'level2Bg4': 999,
     'Player1': 300,
-    #'Player1Shot': 1,
+    'Player1Shot': 1,
     'Player2': 300,
-    #'Player2Shot': 1,
+    'Player2Shot': 1,
     'Enemy1': 50,
-    #'Enemy1Shot': 1,
+    'Enemy1Shot': 1,
     'Enemy2': 60,
-    #'Enemy2Shot': 1,
+    'Enemy2Shot': 1,
+}
+
+ENTITY_SHOT_DELAY: dict[str, int] = {
+    'Player1': 20,
+    'Player2': 15,
+    'Enemy1': 100,
+    'Enemy2': 200,
 }
 
 # M
