@@ -7,7 +7,7 @@ COLOR_WHITE = (255, 255, 255)
 # E
 EVENT_ENEMY = pygame.USEREVENT + 1
 ENTITY_SPEED = {
-    'level1Bg0': 0,  # primeira não mexe
+    'level1Bg0': 0,
     'level1Bg1': 1,
     'level1Bg2': 2,
     'level1Bg3': 3,
@@ -18,6 +18,30 @@ ENTITY_SPEED = {
     'Player2': 3,
     'Enemy1' :2,
     'Enemy2' :1,
+}
+
+
+ENTITY_HEALTH = {
+    'level1Bg0': 999,
+    'level1Bg1': 999,
+    'level1Bg2': 999,
+    'level1Bg3': 999,
+    'level1Bg4': 999,
+    'level1Bg5': 999,
+    'level1Bg6': 999,
+    'level2Bg0': 999,
+    'level2Bg1': 999,
+    'level2Bg2': 999,
+    'level2Bg3': 999,
+    'level2Bg4': 999,
+    'Player1': 300,
+    #'Player1Shot': 1,
+    'Player2': 300,
+    #'Player2Shot': 1,
+    'Enemy1': 50,
+    #'Enemy1Shot': 1,
+    'Enemy2': 60,
+    #'Enemy2Shot': 1,
 }
 
 # M
