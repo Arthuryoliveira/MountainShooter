@@ -32,7 +32,7 @@ class Game:
                         score.save(menu_return, player_score)
 
             elif menu_return == MENU_OPTION[3]:
-                score.show(menu_return, player_score)
+                score.show()
 
             elif menu_return == MENU_OPTION[4]:
                 pygame.quit()
